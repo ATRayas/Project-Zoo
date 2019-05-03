@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3671E5322617CB9000EC409 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3671E5122617CB9000EC409 /* Profile+CoreDataClass.swift */; };
+		A3671E5422617CB9000EC409 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3671E5222617CB9000EC409 /* Profile+CoreDataProperties.swift */; };
+		A3671E5622618537000EC409 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3671E5522618537000EC409 /* city.jpg */; };
+		A37F0CEE2262508F006D0E91 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A37F0CED2262508F006D0E91 /* images.jpeg */; };
+		A39730CA225E917500085D78 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730C9225E917500085D78 /* home.swift */; };
+		A39730CC225E919100085D78 /* directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730CB225E919100085D78 /* directions.swift */; };
+		A39730CE225E91A300085D78 /* animalTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730CD225E91A300085D78 /* animalTable.swift */; };
+		A39730D0225E91DA00085D78 /* animalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730CF225E91DA00085D78 /* animalDetail.swift */; };
+		A39730D6225E953300085D78 /* ProfilelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730D5225E953300085D78 /* ProfilelModel.swift */; };
+		A39730DA225E9F4600085D78 /* AnimalsInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730D9225E9F4600085D78 /* AnimalsInit.swift */; };
+		A39730DC225E9F9900085D78 /* AnimalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730DB225E9F9900085D78 /* AnimalCell.swift */; };
+		A39730DF225EB74100085D78 /* profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730DE225EB74100085D78 /* profile.swift */; };
+		A39730E22261351000085D78 /* Cougar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A39730E02261351000085D78 /* Cougar.jpg */; };
+		A39730E32261351000085D78 /* Osprey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A39730E12261351000085D78 /* Osprey.jpg */; };
+		A39730E522613F5000085D78 /* profileDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39730E422613F5000085D78 /* profileDetail.swift */; };
+		A3EEFB92224B0D4E00853DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EEFB91224B0D4E00853DA5 /* AppDelegate.swift */; };
+		A3EEFB97224B0D4E00853DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFB95224B0D4E00853DA5 /* Main.storyboard */; };
+		A3EEFB9A224B0D4E00853DA5 /* 335_Project_Zoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3EEFB98224B0D4E00853DA5 /* 335_Project_Zoo.xcdatamodeld */; };
+		A3EEFB9C224B0D5000853DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFB9B224B0D5000853DA5 /* Assets.xcassets */; };
+		A3EEFB9F224B0D5000853DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFB9D224B0D5000853DA5 /* LaunchScreen.storyboard */; };
+		A3EEFBAE224B0F6C00853DA5 /* Animal-Texture-Overlay-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBA7224B0F6C00853DA5 /* Animal-Texture-Overlay-9.jpg */; };
+		A3EEFBAF224B0F6C00853DA5 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBA8224B0F6C00853DA5 /* giraffe.jpg */; };
+		A3EEFBB0224B0F6C00853DA5 /* brown-animal-fur-texture-1-780x520.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBA9224B0F6C00853DA5 /* brown-animal-fur-texture-1-780x520.jpg */; };
+		A3EEFBB1224B0F6C00853DA5 /* aligator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBAA224B0F6C00853DA5 /* aligator.jpg */; };
+		A3EEFBB2224B0F6C00853DA5 /* zebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBAB224B0F6C00853DA5 /* zebra.jpg */; };
+		A3EEFBB3224B0F6C00853DA5 /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBAC224B0F6C00853DA5 /* lion.jpg */; };
+		A3EEFBB4224B0F6C00853DA5 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3EEFBAD224B0F6C00853DA5 /* elephant.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3671E5122617CB9000EC409 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A3671E5222617CB9000EC409 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A3671E5522618537000EC409 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
+		A37F0CED2262508F006D0E91 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		A39730C9225E917500085D78 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		A39730CB225E919100085D78 /* directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directions.swift; sourceTree = "<group>"; };
+		A39730CD225E91A300085D78 /* animalTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalTable.swift; sourceTree = "<group>"; };
+		A39730CF225E91DA00085D78 /* animalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalDetail.swift; sourceTree = "<group>"; };
+		A39730D5225E953300085D78 /* ProfilelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilelModel.swift; sourceTree = "<group>"; };
+		A39730D9225E9F4600085D78 /* AnimalsInit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalsInit.swift; sourceTree = "<group>"; };
+		A39730DB225E9F9900085D78 /* AnimalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalCell.swift; sourceTree = "<group>"; };
+		A39730DE225EB74100085D78 /* profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profile.swift; sourceTree = "<group>"; };
+		A39730E02261351000085D78 /* Cougar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cougar.jpg; sourceTree = "<group>"; };
+		A39730E12261351000085D78 /* Osprey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Osprey.jpg; sourceTree = "<group>"; };
+		A39730E422613F5000085D78 /* profileDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDetail.swift; sourceTree = "<group>"; };
+		A3EEFB8E224B0D4E00853DA5 /* 335 Project Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "335 Project Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EEFB91224B0D4E00853DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3EEFB96224B0D4E00853DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EEFB99224B0D4E00853DA5 /* _35_Project_Zoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _35_Project_Zoo.xcdatamodel; sourceTree = "<group>"; };
+		A3EEFB9B224B0D5000853DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EEFB9E224B0D5000853DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3EEFBA0224B0D5000853DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EEFBA7224B0F6C00853DA5 /* Animal-Texture-Overlay-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Animal-Texture-Overlay-9.jpg"; sourceTree = "<group>"; };
+		A3EEFBA8224B0F6C00853DA5 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = "<group>"; };
+		A3EEFBA9224B0F6C00853DA5 /* brown-animal-fur-texture-1-780x520.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brown-animal-fur-texture-1-780x520.jpg"; sourceTree = "<group>"; };
+		A3EEFBAA224B0F6C00853DA5 /* aligator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aligator.jpg; sourceTree = "<group>"; };
+		A3EEFBAB224B0F6C00853DA5 /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = "<group>"; };
+		A3EEFBAC224B0F6C00853DA5 /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		A3EEFBAD224B0F6C00853DA5 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EEFB8B224B0D4E00853DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39730C7225E8B6500085D78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3671E5122617CB9000EC409 /* Profile+CoreDataClass.swift */,
+				A3671E5222617CB9000EC409 /* Profile+CoreDataProperties.swift */,
+				A39730D5225E953300085D78 /* ProfilelModel.swift */,
+				A39730D9225E9F4600085D78 /* AnimalsInit.swift */,
+				A39730DB225E9F9900085D78 /* AnimalCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A39730C8225E8B6C00085D78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A39730CF225E91DA00085D78 /* animalDetail.swift */,
+				A39730CD225E91A300085D78 /* animalTable.swift */,
+				A39730CB225E919100085D78 /* directions.swift */,
+				A39730DE225EB74100085D78 /* profile.swift */,
+				A39730E422613F5000085D78 /* profileDetail.swift */,
+				A39730C9225E917500085D78 /* home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A3EEFB85224B0D4E00853DA5 = {
+			isa = PBXGroup;
+			children = (
+				A39730C8225E8B6C00085D78 /* Views */,
+				A39730C7225E8B6500085D78 /* Model */,
+				A3EEFB90224B0D4E00853DA5 /* 335 Project Zoo */,
+				A3EEFB8F224B0D4E00853DA5 /* Products */,
+				A3EEFBA6224B0F6C00853DA5 /* Zoo project pictures */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EEFB8F224B0D4E00853DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EEFB8E224B0D4E00853DA5 /* 335 Project Zoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EEFB90224B0D4E00853DA5 /* 335 Project Zoo */ = {
+			isa = PBXGroup;
+			children = (
+				A3EEFB91224B0D4E00853DA5 /* AppDelegate.swift */,
+				A3EEFB95224B0D4E00853DA5 /* Main.storyboard */,
+				A3EEFB9B224B0D5000853DA5 /* Assets.xcassets */,
+				A3EEFB9D224B0D5000853DA5 /* LaunchScreen.storyboard */,
+				A3EEFBA0224B0D5000853DA5 /* Info.plist */,
+				A3EEFB98224B0D4E00853DA5 /* 335_Project_Zoo.xcdatamodeld */,
+			);
+			path = "335 Project Zoo";
+			sourceTree = "<group>";
+		};
+		A3EEFBA6224B0F6C00853DA5 /* Zoo project pictures */ = {
+			isa = PBXGroup;
+			children = (
+				A3EEFBA7224B0F6C00853DA5 /* Animal-Texture-Overlay-9.jpg */,
+				A3EEFBA8224B0F6C00853DA5 /* giraffe.jpg */,
+				A3EEFBA9224B0F6C00853DA5 /* brown-animal-fur-texture-1-780x520.jpg */,
+				A3EEFBAA224B0F6C00853DA5 /* aligator.jpg */,
+				A3EEFBAB224B0F6C00853DA5 /* zebra.jpg */,
+				A3EEFBAC224B0F6C00853DA5 /* lion.jpg */,
+				A3EEFBAD224B0F6C00853DA5 /* elephant.jpg */,
+				A39730E02261351000085D78 /* Cougar.jpg */,
+				A39730E12261351000085D78 /* Osprey.jpg */,
+				A3671E5522618537000EC409 /* city.jpg */,
+				A37F0CED2262508F006D0E91 /* images.jpeg */,
+			);
+			path = "Zoo project pictures";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EEFB8D224B0D4E00853DA5 /* 335 Project Zoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EEFBA3224B0D5000853DA5 /* Build configuration list for PBXNativeTarget "335 Project Zoo" */;
+			buildPhases = (
+				A3EEFB8A224B0D4E00853DA5 /* Sources */,
+				A3EEFB8B224B0D4E00853DA5 /* Frameworks */,
+				A3EEFB8C224B0D4E00853DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "335 Project Zoo";
+			productName = "335 Project Zoo";
+			productReference = A3EEFB8E224B0D4E00853DA5 /* 335 Project Zoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EEFB86224B0D4E00853DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Alejandro Rayas";
+				TargetAttributes = {
+					A3EEFB8D224B0D4E00853DA5 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A3EEFB89224B0D4E00853DA5 /* Build configuration list for PBXProject "335 Project Zoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EEFB85224B0D4E00853DA5;
+			productRefGroup = A3EEFB8F224B0D4E00853DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EEFB8D224B0D4E00853DA5 /* 335 Project Zoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EEFB8C224B0D4E00853DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EEFBAE224B0F6C00853DA5 /* Animal-Texture-Overlay-9.jpg in Resources */,
+				A3EEFB9F224B0D5000853DA5 /* LaunchScreen.storyboard in Resources */,
+				A39730E22261351000085D78 /* Cougar.jpg in Resources */,
+				A37F0CEE2262508F006D0E91 /* images.jpeg in Resources */,
+				A3EEFBB2224B0F6C00853DA5 /* zebra.jpg in Resources */,
+				A3EEFBB4224B0F6C00853DA5 /* elephant.jpg in Resources */,
+				A3671E5622618537000EC409 /* city.jpg in Resources */,
+				A3EEFB9C224B0D5000853DA5 /* Assets.xcassets in Resources */,
+				A3EEFBB0224B0F6C00853DA5 /* brown-animal-fur-texture-1-780x520.jpg in Resources */,
+				A39730E32261351000085D78 /* Osprey.jpg in Resources */,
+				A3EEFBB3224B0F6C00853DA5 /* lion.jpg in Resources */,
+				A3EEFB97224B0D4E00853DA5 /* Main.storyboard in Resources */,
+				A3EEFBB1224B0F6C00853DA5 /* aligator.jpg in Resources */,
+				A3EEFBAF224B0F6C00853DA5 /* giraffe.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EEFB8A224B0D4E00853DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39730E522613F5000085D78 /* profileDetail.swift in Sources */,
+				A39730D0225E91DA00085D78 /* animalDetail.swift in Sources */,
+				A39730DC225E9F9900085D78 /* AnimalCell.swift in Sources */,
+				A39730D6225E953300085D78 /* ProfilelModel.swift in Sources */,
+				A39730CA225E917500085D78 /* home.swift in Sources */,
+				A39730CE225E91A300085D78 /* animalTable.swift in Sources */,
+				A39730DA225E9F4600085D78 /* AnimalsInit.swift in Sources */,
+				A3671E5322617CB9000EC409 /* Profile+CoreDataClass.swift in Sources */,
+				A3EEFB9A224B0D4E00853DA5 /* 335_Project_Zoo.xcdatamodeld in Sources */,
+				A3671E5422617CB9000EC409 /* Profile+CoreDataProperties.swift in Sources */,
+				A39730DF225EB74100085D78 /* profile.swift in Sources */,
+				A3EEFB92224B0D4E00853DA5 /* AppDelegate.swift in Sources */,
+				A39730CC225E919100085D78 /* directions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3EEFB95224B0D4E00853DA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EEFB96224B0D4E00853DA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EEFB9D224B0D5000853DA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EEFB9E224B0D5000853DA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EEFBA1224B0D5000853DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3EEFBA2224B0D5000853DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EEFBA4224B0D5000853DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS8228H3X;
+				INFOPLIST_FILE = "335 Project Zoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rayas.-35-Project-Zoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3EEFBA5224B0D5000853DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RNS8228H3X;
+				INFOPLIST_FILE = "335 Project Zoo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rayas.-35-Project-Zoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EEFB89224B0D4E00853DA5 /* Build configuration list for PBXProject "335 Project Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EEFBA1224B0D5000853DA5 /* Debug */,
+				A3EEFBA2224B0D5000853DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EEFBA3224B0D5000853DA5 /* Build configuration list for PBXNativeTarget "335 Project Zoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EEFBA4224B0D5000853DA5 /* Debug */,
+				A3EEFBA5224B0D5000853DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3EEFB98224B0D4E00853DA5 /* 335_Project_Zoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3EEFB99224B0D4E00853DA5 /* _35_Project_Zoo.xcdatamodel */,
+			);
+			currentVersion = A3EEFB99224B0D4E00853DA5 /* _35_Project_Zoo.xcdatamodel */;
+			path = 335_Project_Zoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3EEFB86224B0D4E00853DA5 /* Project object */;
+}
